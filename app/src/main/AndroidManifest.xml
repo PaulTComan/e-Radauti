@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="radautiul_civic.e_radauti_alpha"
+    android:versionCode="2">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconita"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/iconita"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />  <!-- Launcher inseamna ca asta este pagina principala-->
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main_menu" /> <!-- Activitatea cu meniul principal -->
+        <activity android:name=".tururi" /> <!-- Activitatea cu tururi -->
+        <activity android:name=".NumereUtile" /> <!-- Activitatea cu Numerele Utile-->
+        <activity android:name=".CodQR"></activity> <!-- Activitatea cu QR -->
+    </application>
+
+</manifest>

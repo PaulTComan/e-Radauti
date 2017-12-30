@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">e-Radauti</string>
+    <string name="tururi_button">Tours</string>
+    <string name="qr_button">qr_scan</string>
+    <string name="button_romana">Romana</string>
+    <string name="button_engleza">English</string>
+    <color name="white">#FFFFFF</color>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

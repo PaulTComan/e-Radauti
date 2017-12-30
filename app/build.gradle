@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+    }
+    compileSdkVersion 26
+    //   buildToolsVersion "26.0.1"
+    defaultConfig {
+        multiDexEnabled true
+        applicationId "radautiul_civic.e_radauti_alpha"
+        //Numele aplicatiei trebuie sa fie mereu acelasi
+        minSdkVersion 14 //Versiunea Sdk trebuie sa fie minim 14
+        targetSdkVersion 26 //Versiunea targetSdk trebuie sa fie ca cea de compilare (cea de sus)
+        versionCode 4 //Versiunea pentru Google Play vine schimbata la fiecare Release in codul de mai jos
+        versionName "4.0"  //Here is where we need to change the version, in order to update app on Google Play
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:26.1.0'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:multidex:1.0.0' //Enabling multidex support for 65536 Error.
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.google.android.gms:play-services:10.2.6'
+    testCompile 'junit:junit:4.12'
+    implementation 'com.android.support:design:27.0.2'
+}
