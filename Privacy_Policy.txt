@@ -1,16 +1,4 @@
-<resources>
-    <string name="app_name">e-Radauti</string>
-    <string name="tururi_button">Tours</string>
-    <string name="qr_button">qr_scan</string>
-    <string name="button_romana">Romana</string>
-    <string name="button_engleza">English</string>
-    <color name="white">#FFFFFF</color>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_confidentialitate">Politica de confidentialitate</string>
-    <string name="large_text">
-        <b>Radautiul Civic</b> group built <b>e-Radauti</b> app as a Free app. This SERVICE is provided by Radautiul Civic at no cost and is intended for use as is. \n\n
+﻿<b>Radautiul Civic</b> group built <b>e-Radauti</b> app as a Free app. This SERVICE is provided by Radautiul Civic at no cost and is intended for use as is. \n\n
 
 This page is used to inform website visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service. \n\n
 
@@ -77,7 +65,3 @@ effective immediately after they are posted on this page.\n\n
 <i>Contact Us</i> \n
 
 If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at radautiulcivic@gmail.com.\n \n
-
-    </string>
-    <string name="action_settings">Settings</string>
-</resources>
